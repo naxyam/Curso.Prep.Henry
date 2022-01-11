@@ -1,0 +1,19 @@
+#thirdDiv {
+          
+    width: 500 px !important;
+    height: 600 px !important;
+    background-color: aquamarine;
+    padding: 50px;
+    border: blue;
+    border-style: dashed;
+}
+#thirdDiv >  h1 {
+    color: blue;
+
+}
+.divClass > ul > li > img{
+    width: 400 px;
+}
+#spanId {
+    font-size: 18 px;
+    margin: 50 px;
