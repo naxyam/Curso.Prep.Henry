@@ -1,19 +1,62 @@
+body{
+    background-image: url(https://image.freepik.com/foto-gratis/tartan-fondo-madera_1205-2118.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+
 #thirdDiv {
-          
-    width: 500 px !important;
-    height: 600 px !important;
+              
     background-color: aquamarine;
     padding: 50px;
     border: blue;
-    border-style: dashed;
+    border-style: dashed;    
+    display: flex;
+    text-align: center;   
+    flex-direction: column;
+    
 }
+
 #thirdDiv >  h1 {
     color: blue;
+    background-color: chocolate;
+    margin: 2px;
 
-}
-.divClass > ul > li > img{
+    }
+
+.divClass{    
+        display: flex;  
+        justify-content: center;     
+        flex-wrap: wrap;
+        background-color: chocolate;
+        margin: 4px;
+      }
+
+.divClass > a{
+        color: black;
+    }
+.divClass > ul {
+        display: flex;  
+        justify-content: center;     
+        flex-wrap: wrap;
+    }
+    
+.divClass > ul li{
+        margin: 4px;
+    }
+
+
+img{
     width: 400 px;
+    padding-bottom: 2 px;
 }
+
+
 #spanId {
     font-size: 18 px;
     margin: 50 px;
+    color: black;
+}
